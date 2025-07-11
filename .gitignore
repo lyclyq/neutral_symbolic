@@ -1,0 +1,85 @@
+# 排除输出目录
+output/
+
+# 排除Qwen模型文件夹
+Qwen/
+
+# 排除样本图片和相关文件夹
+sample/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch 模型文件
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# 环境变量文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# SwanLab 相关
+swanlab/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 大型数据文件（如果有的话）
+*.zip
+*.tar.gz
+*.rar 
